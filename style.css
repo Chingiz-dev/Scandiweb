@@ -1,0 +1,57 @@
+body {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  width: 80%;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+section {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 10px 20px;
+  margin: 10px;
+  min-width: 120px;
+  width: 20%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+footer {
+  color: white;
+  background-color: blueviolet;
+  border-top: 1px grey solid;
+  text-align: center;
+  padding: 30px;
+}
+
+button {
+  color: white;
+  background-color: blueviolet;
+  margin: 30px;
+}
+
+a {
+  color: white;
+}
+
+input {
+  margin: 30px;
+}
